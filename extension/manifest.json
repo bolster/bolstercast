@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "BolsterCast",
+  "description": "BolsterCast",
+  "version": "1.0",
+
+  "options_page": "options.html",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+
+  "browser_action": {
+    "default_icon": "print_16x16.png"
+  }
+}
